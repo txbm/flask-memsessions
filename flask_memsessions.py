@@ -27,11 +27,13 @@ class MemcachedSessionInterface(SessionInterface):
         return cache
 
     def open_session(self, app, request):
-        cookie = request.cookies.get(app.session_cookie_name, None)
+        self.cookie_session_id = request.cookies.get(app.session_cookie_name, None)
         self.session_new = False
-        if not cookie:
+        
+        if not self.cookie_session_id:
             self.cookie_session_id = os.urandom(40).encode('hex')
             self.session_new = True
+
         if not request.remote_addr:
             self.memsess_id = '@'.join(['nobody', self.cookie_session_id])
         else:
