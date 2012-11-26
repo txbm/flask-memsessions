@@ -13,6 +13,15 @@ Description:
         A simple extension to drop in memcached sessions using the 
         existing Werkzeug cache interface.
         
+        Links
+        `````
+        
+        * `development version
+          <http://github.com/petermelias/flask-memsessions/zipball/master#egg=Flask-Memsessions-dev>`_
+        
+        
+        
+        
 Platform: any
 Classifier: Environment :: Web Environment
 Classifier: Intended Audience :: Developers
