@@ -9,10 +9,10 @@ Links
 `````
 
 * `development version
-  <http://github.com/petermelias/flask-memsessions>`_
+  <http://github.com/petermelias/flask-memsessions/zipball/master#egg=Flask-Memsessions-dev>`_
 
 
-  
+
 """
 
 from setuptools import setup
