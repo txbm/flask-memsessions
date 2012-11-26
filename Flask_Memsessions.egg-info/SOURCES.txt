@@ -1,6 +1,9 @@
+MANIFEST.in
 README
 flask_memsessions.py
+setup.cfg
 setup.py
+tests.py
 Flask_Memsessions.egg-info/PKG-INFO
 Flask_Memsessions.egg-info/SOURCES.txt
 Flask_Memsessions.egg-info/dependency_links.txt
