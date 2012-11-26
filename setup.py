@@ -4,6 +4,15 @@ Flask Memsessions
 
 A simple extension to drop in memcached sessions using the 
 existing Werkzeug cache interface.
+
+Links
+`````
+
+* `development version
+  <http://github.com/petermelias/flask-memsessions>`_
+
+
+  
 """
 
 from setuptools import setup
