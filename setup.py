@@ -11,7 +11,7 @@ from setuptools import setup
 setup(
 	name='Flask-Memsessions',
 	version='0.1',
-	url='https://github.com/petermelias/flask-memsessions',
+	url='http://github.com/petermelias/flask-memsessions',
 	license='BSD',
 	author='Peter M. Elias',
 	author_email='petermelias@gmail.com',

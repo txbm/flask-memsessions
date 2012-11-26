@@ -2,7 +2,7 @@ Metadata-Version: 1.1
 Name: Flask-Memsessions
 Version: 0.1
 Summary: A simple extension to drop in memcached session support for Flask.
-Home-page: https://github.com/petermelias/flask-memsessions
+Home-page: http://github.com/petermelias/flask-memsessions
 Author: Peter M. Elias
 Author-email: petermelias@gmail.com
 License: BSD
