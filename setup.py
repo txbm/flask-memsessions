@@ -7,12 +7,6 @@ existing Werkzeug cache interface.
 
 Links
 `````
-
-* `development version
-  <http://github.com/petermelias/flask-memsessions/zipball/master#egg=Flask-Memsessions-dev>`_
-
-
-
 """
 
 from setuptools import setup
@@ -32,8 +26,7 @@ setup(
 	platforms='any',
 	install_requires=[
 		'Flask',
-		'Werkzeug',
-		'python-memcached',
+		'Werkzeug'
 	],
 	classifiers=[
 		'Environment :: Web Environment',
