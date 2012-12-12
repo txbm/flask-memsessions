@@ -22,8 +22,9 @@ class MemcachedSessionInterface(SessionInterface):
 
     def get_connection(self, app):
         servers = app.config.get('MEMCACHED_SERVERS')
-        username = app.config.get('MEMCACHED_USERNAME')
-        password = app.config.get('MEMCACHED_PASSWORD')
+        username = app.config.get('MEMCACHED_USERNAME', None)
+        password = app.config.get('MEMCACHED_PASSWORD', None)
+
         cache = MemcachedCache(servers, username, password)
         
         if not cache:
