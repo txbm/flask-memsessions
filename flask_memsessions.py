@@ -27,6 +27,8 @@ class MemcachedSessionInterface(SessionInterface):
 
         cache = MemcachedCache(servers, username, password)
         
+        print 'hi'
+
         if not cache:
             raise Exception('Memcached session cannot connect to memcached server.')
         return cache

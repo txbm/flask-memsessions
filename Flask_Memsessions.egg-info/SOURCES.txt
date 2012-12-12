@@ -1,5 +1,4 @@
 MANIFEST.in
-README
 flask_memsessions.py
 setup.cfg
 setup.py
